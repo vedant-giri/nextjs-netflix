@@ -116,6 +116,7 @@
     border-color: #e50914 transparent #e50914 transparent;
     animation: loading 1.2s infinite;
 }
+
 @keyframes loading {
     0% {
         transform: rotate(0);
@@ -135,6 +136,9 @@
 @media screen and (max-width:768px) {
     .grid_two_section{
         grid-template-columns: 1fr;
+    }
+    .__className_19cf00{
+        width: 200%;
     }
 
     .card_section{
