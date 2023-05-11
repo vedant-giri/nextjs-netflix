@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en" >
-      <body className={styles.__className_19cf00}>
+      <body className={mulish.className}>
          <Header/>
         {children}
         <Footer/>
